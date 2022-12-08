@@ -1,0 +1,118 @@
+.container {
+  display: block;
+  margin: auto;
+  margin-top: 140px;
+  width: 700px;
+  height: 500px;
+  outline: 2px solid #000;
+  border-radius: 3px;
+}
+
+.cities {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  color: rgb(46, 149, 46);
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.city-2 {
+  margin-left: 90px;
+  margin-top: -41px;
+}
+
+.city-3 {
+  margin-left: 210px;
+  margin-top: -42px;
+}
+
+.logo {
+  position: relative;
+  left: 473px;
+  right: 0;
+  top: -60px;
+  color: lightslategray;
+  font-family: monospace;
+}
+
+.search-tab {
+  input-btn-padding-y: 0.375rem;
+  input-btn-padding-x: 0.75rem;
+  input-btn-font-family: null;
+  input-btn-font-size: $font-size-base;
+  input-btn-line-height: $line-height-base;
+}
+
+.searcher {
+  border-color: forestgreen;
+  border-radius: 3px;
+}
+
+.btn-success {
+  padding: 4px 9px;
+}
+
+.city-name {
+  margin-left: 22px;
+  margin-top: 23px;
+  width: 150px;
+  height: 106px;
+  outline: 2px solid forestgreen;
+  border-radius: 3px;
+}
+
+.poznan {
+  font-size: 38px;
+  text-align: center;
+  color: black;
+}
+
+.details {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.temperature {
+  font-size: 70px;
+  color: #000;
+  margin-left: 188px;
+  margin-top: -100px;
+}
+
+.details-2 {
+  color: rgb(49, 48, 48);
+  font-size: 20px;
+  margin-left: 470px;
+  margin-top: -116px;
+}
+
+.days {
+  color: #000;
+  text-align: center;
+}
+
+.mon {
+  margin-top: 60px;
+  margin-left: -625px;
+}
+
+.tue {
+  margin-top: -107px;
+  margin-left: -356px;
+}
+
+.wed {
+  margin-top: -107px;
+  margin-left: -92px;
+}
+
+.thu {
+  margin-top: -107px;
+  margin-left: 165px;
+}
+
+.fri {
+  margin-top: -107px;
+  margin-left: 418px;
+}

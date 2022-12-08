@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cities">
+        <h3 class="city-1">Kyiv</h3>
+        <h3 class="city-2">London</h3>
+        <h3 class="city-3">New York</h3>
+        <h2 class="logo">🌤Weather</h2>
+        <form class="search-tab" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter your city..."
+            autofocus="on"
+            autocomplete="off"
+            class="searcher"
+            id="city-input"
+          />
+
+          <button type="button" class="btn btn-success">Search</button>
+        </form>
+        <div class="city-name">
+          <h2 class="poznan" id="city-poznan">Poznan</h2>
+          <p class="details">
+            <span id="current-date"></span> <br />
+            <span id="type">Sunny</span>
+          </p>
+        </div>
+        <div class="temperature">🔆18°</div>
+        <div class="details-2">
+          Humidity <br /><span id="humidity"><strong> 26%</strong></span>
+          <br />
+          Sunrise
+          <br /><span id="sunrise"><strong>5:58 pm</strong></span>
+        </div>
+        <div class="days">
+          <div class="mon">
+            <h3>
+              Mon <br />
+              ⛅ <br />
+              16°
+            </h3>
+          </div>
+          <div class="tue">
+            <h3>
+              Tue <br />
+              🌦 <br />
+              17°
+            </h3>
+          </div>
+          <div class="wed">
+            <h3>
+              Wed <br />
+              🌧 <br />
+              15°
+            </h3>
+          </div>
+          <div class="thu">
+            <h3>
+              Thu <br />
+              🌤 <br />
+              13°
+            </h3>
+          </div>
+          <div class="fri">
+            <h3>
+              Fri <br />
+              ⛅ <br />
+              13°
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
